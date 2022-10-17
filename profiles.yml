@@ -1,0 +1,11 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: dbt_jaffle_shop
+      host: localhost
+      port: 8123
+      user: default
+      password: ''
+      secure: False
